@@ -48,13 +48,13 @@ const responseHighlights = [
 
 export default function ContactPage() {
   return (
-    <div className="space-y-20 pb-24">
+    <div className="space-y-20">
       <section className="space-y-6">
         <p className="w-fit rounded-full border border-primary/40 bg-primary/10 px-4 py-1 text-xs font-semibold uppercase tracking-[0.4em] text-primary">
           INGAGIN
         </p>
         <div className="space-y-4">
-          <h1 className="max-w-4xl text-4xl font-semibold text-foreground sm:text-5xl">
+          <h1 className="max-w-4xl text-2xl font-semibold text-foreground sm:text-3xl">
             Let’s build the future of digital assets together
           </h1>
           <p className="max-w-3xl text-lg text-foreground/70">
@@ -66,7 +66,7 @@ export default function ContactPage() {
       </section>
 
       <section className="grid gap-8 lg:grid-cols-[1fr,1.1fr]">
-        <div className="space-y-8">
+        {/* <div className="space-y-8">
           <div className="rounded-4xl border border-white/10 bg-white/[0.04] p-8 shadow-[0_0_60px_-30px_rgba(17,191,166,0.4)]">
             <h2 className="text-2xl font-semibold text-foreground sm:text-3xl">
               Talk to our team
@@ -124,10 +124,10 @@ export default function ContactPage() {
               <span>Operating hours: Monday — Friday · 9:00 – 18:00 EST</span>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="rounded-4xl border border-white/10 bg-white/[0.04] p-8 shadow-[0_0_80px_-30px_rgba(105,230,211,0.45)]">
-          <div className="mb-8 space-y-3">
+          {/* <div className="mb-8 space-y-3">
             <h2 className="text-2xl font-semibold text-foreground sm:text-3xl">
               Share your vision
             </h2>
@@ -135,12 +135,12 @@ export default function ContactPage() {
               Complete the form and we’ll collaborate on the next steps for your
               digital asset, blockchain integration, or growth roadmap.
             </p>
-          </div>
+          </div> */}
           <ContactForm />
         </div>
       </section>
 
-      <section className="rounded-4xl border border-white/10 bg-gradient-to-br from-primary/15 via-transparent to-accent/20 p-10">
+      {/* <section className="rounded-4xl border border-white/10 bg-gradient-to-br from-primary/15 via-transparent to-accent/20 p-10">
         <div className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
           <div className="space-y-2">
             <p className="text-xs font-semibold uppercase tracking-[0.3em] text-primary">
@@ -165,7 +165,7 @@ export default function ContactPage() {
             </span>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }

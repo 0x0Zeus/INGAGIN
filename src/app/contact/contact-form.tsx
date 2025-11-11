@@ -81,8 +81,8 @@ export default function ContactForm() {
         company: form.company,
         reply_to: form.email,
         message: form.message,
-        logoUrl: "https://www.b2bexc.com/B2BEXC.jpg",
-        logoLink: "https://www.b2bexc.com/",
+        logoUrl: "https://www.ingagin.com/logo.png",
+        logoLink: "https://www.ingagin.com/",
         logoString: "INGAGIN",
       });
 
