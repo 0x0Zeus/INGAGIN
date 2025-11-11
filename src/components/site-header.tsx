@@ -26,13 +26,14 @@ export function SiteHeader() {
           className="flex items-center gap-3 rounded-full focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-background"
         >
           <Image
-            src="/ingagin-logo.svg"
+            src="/logo.png"
             alt="INGAGIN logo"
             width={140}
             height={40}
             priority
-            className="h-auto w-[140px]"
+            className="h-auto w-10"
           />
+          <span className="text-2xl font-bold">INGAGIN</span>
         </Link>
 
         <nav className="hidden items-center gap-6 lg:flex">
@@ -56,15 +57,6 @@ export function SiteHeader() {
             );
           })}
         </nav>
-
-        <div className="flex items-center gap-3">
-          <Button
-            asChild
-            className="rounded-full bg-primary px-5 py-2 text-sm font-semibold text-primary-foreground shadow-lg shadow-primary/20 transition hover:bg-primary/90 focus-visible:ring-accent"
-          >
-            <Link href="/dashboard">Launch Dashboard</Link>
-          </Button>
-        </div>
       </div>
     </header>
   );

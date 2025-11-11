@@ -3,7 +3,7 @@ import Link from "next/link";
 export function SiteFooter() {
   return (
     <footer className="border-t border-white/5">
-      <div className="mx-auto flex w-full max-w-6xl flex-col gap-6 px-6 py-12 text-sm text-foreground/70 sm:flex-row sm:items-center sm:justify-between">
+      <div className="mx-auto flex w-full max-w-6xl flex-col gap-6 px-6 py-6 text-sm text-foreground/70 sm:flex-row sm:items-center sm:justify-between">
         <p className="text-foreground/60">
           © {new Date().getFullYear()} INGAGIN. All rights reserved.
         </p>

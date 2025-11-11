@@ -53,8 +53,8 @@ export default function RootLayout({
       >
         <div className="flex min-h-screen flex-col bg-[radial-gradient(circle_at_top,#11bfa610,transparent_55%),url('/images/blockchain-grid.svg')] bg-cover bg-fixed bg-center">
           <SiteHeader />
-          <main className="flex-1">
-            <div className="mx-auto w-full max-w-6xl px-6 py-16">{children}</div>
+          <main className="flex-1 flex flex-col justify-center items-center">
+            <div className="mx-auto w-full max-w-6xl px-6 py-16 flex-1">{children}</div>
           </main>
           <SiteFooter />
         </div>
