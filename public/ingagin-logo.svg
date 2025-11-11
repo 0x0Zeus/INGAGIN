@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="120" viewBox="0 0 360 120">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#11BFA6"/>
+      <stop offset="100%" stop-color="#69E6D3"/>
+    </linearGradient>
+  </defs>
+  <rect width="360" height="120" fill="none"/>
+  <g transform="translate(20 18)">
+    <path d="M40 0 0 24v48l40 24 40-24V24L40 0Zm25 64-25 15-25-15V32l25-15 25 15Z" fill="url(#grad)"/>
+    <path d="M40 26 24 36v24l16 10 16-10V36Zm6 27-6 4-6-4v-10l6-4 6 4Z" fill="#0B1220"/>
+  </g>
+  <text x="120" y="76" font-family="Geist, 'Inter', 'Segoe UI', sans-serif" font-size="48" font-weight="600" letter-spacing="4" fill="#F8FAFC">
+    INGAGIN
+  </text>
+</svg>
+
