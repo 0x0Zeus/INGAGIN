@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import PortfolioGrid from "./portfolio-grid";
 
 export const metadata: Metadata = {
   title: "Portfolio",
@@ -17,7 +18,8 @@ export default function Portfolio() {
           INGAGIN: Portfolio
         </h1>
       </section>
+
+      <PortfolioGrid />
     </div>
   );
 }
-
