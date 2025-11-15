@@ -458,7 +458,7 @@ ${documentsSummary}
                   value={form.founderName}
                   onChange={handleFieldChange("founderName")}
                   autoComplete="name"
-                  placeholder="Ada Lovelace"
+                  placeholder="Adam West"
                   required
                 />
               </div>

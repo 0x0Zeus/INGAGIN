@@ -59,6 +59,20 @@ const portfolioItems = [
     link: "https://goldexcg.com",
     linkText: "Visit goldexcg.com",
   },
+  {
+    id: 9,
+    title: "3-DWorld.com",
+    description: "INGAGIN provides advanced advisory support to 3-DWorld, guiding metaverse architecture, gaming ecosystem development, asset tokenization models, blockchain deployment, and user engagement strategy to help the platform scale immersive virtual experiences, strengthen digital economies, and build a sustainable, interactive Web3 gaming environment.",
+    link: "https://www.3-dworld.com",
+    linkText: "Visit www.3-dworld.com",
+  },
+  {
+    id: 10,
+    title: "VirtualWorldCoins.com",
+    description: "INGAGIN advises Virtual World Coins on Solana token design, utility planning, ecosystem expansion, marketplace development, and community-driven economic models, helping strengthen its virtual-world currency framework and accelerate its Web3 growth across interconnected metaverse environments.",
+    link: "https://www.virtualworldcoins.com",
+    linkText: "Visit www.virtualworldcoins.com",
+  },
 ];
 
 export default function PortfolioGrid() {

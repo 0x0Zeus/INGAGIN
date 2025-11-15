@@ -118,7 +118,7 @@ export default function ContactForm() {
             id="fullName"
             name="fullName"
             autoComplete="name"
-            placeholder="Ada Lovelace"
+            placeholder="Adam West"
             value={form.fullName}
             onChange={handleChange("fullName")}
             required
