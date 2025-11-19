@@ -364,7 +364,7 @@ ${documentsSummary}
       setStatus({
         type: "success",
         message:
-          "Thank you for sharing your project. Our partnerships desk will review your application and respond within two business days.",
+          "Thank you for sharing your project. Our partnership will review your application.",
       });
       setForm(INITIAL_FORM);
       setDocuments(INITIAL_DOCUMENTS);
