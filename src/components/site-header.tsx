@@ -14,6 +14,7 @@ const navigation = [
   { label: "Team", href: "/team" },
   { label: "Portfolio", href: "/portfolio" },
   { label: "Apply", href: "/apply" },
+  { label: "Partnerships", href: "/partnerships" },
   { label: "Contact", href: "/contact" },
 ];
 

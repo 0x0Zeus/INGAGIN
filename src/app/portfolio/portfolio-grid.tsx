@@ -73,6 +73,20 @@ const portfolioItems = [
     link: "https://www.virtualworldcoins.com",
     linkText: "Visit www.virtualworldcoins.com",
   },
+  {
+    id: 11,
+    title: "Trade Arts",
+    description: "A strategic venture specializing in digital collectibles, NFT assets, and Web3 marketplace development. Trade Arts empowers creators, collectors, and brands by building scalable digital art ecosystems supported by blockchain innovation and strategic advisory.",
+    link: "https://www.trdarts.com",
+    linkText: "Visit www.trdarts.com",
+  },
+  {
+    id: 12,
+    title: "Crypt Stones",
+    description: "A digital collectible venture centered on premium gemstone-inspired NFTs. Crypt Stones creates rare, high-value digital assets and immersive collectibles powered by blockchain, offering collectors a unique fusion of art, rarity, and Web3 innovation.",
+    link: "https://www.cryptstones.com",
+    linkText: "Visit www.cryptstones.com",
+  },
 ];
 
 export default function PortfolioGrid() {
