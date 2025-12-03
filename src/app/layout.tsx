@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Script from "next/script";
 
+import { Analytics } from "@/components/analytics";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 
@@ -51,6 +53,19 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} min-h-screen bg-background text-foreground antialiased`}
       >
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-T8C57FN0BB"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-T8C57FN0BB');
+          `}
+        </Script>
+        <Analytics />
         <div className="flex min-h-screen flex-col bg-[radial-gradient(circle_at_top,#11bfa610,transparent_55%),url('/images/blockchain-grid.svg')] bg-cover bg-fixed bg-center">
           <SiteHeader />
           <main className="flex-1 flex flex-col justify-center items-center">

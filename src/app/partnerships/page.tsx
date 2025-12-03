@@ -74,7 +74,7 @@ const QUESTIONS = [
   "Past projects or brands you’ve helped grow and the role you played.",
   "Weekly time commitment you can realistically allocate.",
   "Existing networks you can activate (investors, influencers, creators, communities).",
-  "Your goals as an Ingrain Portfolio Partner and what success looks like in 6–12 months.",
+  "Your goals as an Ingagin Portfolio Partner and what success looks like in 6–12 months.",
 ];
 
 export default function PartnershipsPage() {
@@ -197,7 +197,7 @@ APPLICANT DETAILS
         </p>
         <div className="space-y-4">
           <h1 className="max-w-4xl text-4xl font-semibold text-foreground sm:text-5xl">
-            Plug into an Ingrain portfolio brand
+            Plug into an INGAGIN portfolio brand
           </h1>
           <p className="max-w-3xl text-lg text-foreground/70">
             This application hub is for ambitious operators ready to contribute
@@ -372,7 +372,7 @@ APPLICANT DETAILS
 
           <TextareaField
             id="goals"
-            label="Goals as an Ingrain Portfolio Partner"
+            label="Goals as an Ingagin Portfolio Partner"
             placeholder="Describe what success looks like in 6–12 months."
             value={form.goals}
             onChange={handleInputChange("goals")}

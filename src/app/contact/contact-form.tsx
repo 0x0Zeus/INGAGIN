@@ -90,7 +90,7 @@ export default function ContactForm() {
       setStatus({
         type: "success",
         message:
-          "Thank you for reaching out. A member of the INGAGIN team will respond within one business day.",
+          "Thank you for reaching out. A member of the INGAGIN team will respond.",
       });
     } catch (error) {
       console.error("Unable to send contact message", error);

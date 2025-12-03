@@ -32,6 +32,13 @@ const portfolioItems = [
     linkText: "Visit www.poememe.com",
   },
   {
+    id: 13,
+    title: "Alieniods.com",
+    description: "INGAGIN invests in Alieniods, supporting the growth of its extraterrestrial-themed NFT community and digital identity platform, where alien lore, UAP culture, and immersive collectibles converge to create a new frontier of Web3 expression.",
+    link: "https://www.alieniods.com",
+    linkText: "Visit www.alieniods.com",
+  },
+  {
     id: 5,
     title: "DigitalWorldProperty",
     description: "INGAGIN provides digital asset advisory services to Digital World Property, guiding tokenized real-estate development, blockchain infrastructure design, and Web3 market strategy to help the startup build scalable virtual property ecosystems, expand investor access, and strengthen transparent digital ownership models.",
@@ -65,6 +72,13 @@ const portfolioItems = [
     description: "INGAGIN provides advanced advisory support to 3-DWorld, guiding metaverse architecture, gaming ecosystem development, asset tokenization models, blockchain deployment, and user engagement strategy to help the platform scale immersive virtual experiences, strengthen digital economies, and build a sustainable, interactive Web3 gaming environment.",
     link: "https://www.3-dworld.com",
     linkText: "Visit www.3-dworld.com",
+  },
+  {
+    id: 14,
+    title: "Aliens Zombies",
+    description: "INGAGIN invests in Aliens Zombies, supporting the development of its cinematic GameFi universe and evolving NFT ecosystem, where alien factions, mutating undead, and immersive digital assets merge to create a groundbreaking interactive Web3 franchise.",
+    link: "https://www.alienszombies.com",
+    linkText: "Visit www.alienszombies.com",
   },
   {
     id: 10,
