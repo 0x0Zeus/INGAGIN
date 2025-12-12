@@ -32,6 +32,13 @@ const portfolioItems = [
     linkText: "Visit www.poememe.com",
   },
   {
+    id: 15,
+    title: "Ice Apes",
+    description: "INGAGIN partners with Ice Apes, joining forces in community growth and media development to expand its cold-frontier NFT universe where Arctic-themed apes, storytelling, and digital culture merge into a vibrant Web3 ecosystem.",
+    link: "https://www.iceapes.com",
+    linkText: "Visit www.iceapes.com",
+  },
+  {
     id: 13,
     title: "Alieniods.com",
     description: "INGAGIN invests in Alieniods, supporting the growth of its extraterrestrial-themed NFT community and digital identity platform, where alien lore, UAP culture, and immersive collectibles converge to create a new frontier of Web3 expression.",
@@ -95,11 +102,25 @@ const portfolioItems = [
     linkText: "Visit www.trdarts.com",
   },
   {
+    id: 16,
+    title: "Hyper Apes",
+    description: "INGAGIN supports Hyper Apes by networking talent and providing strategic services to strengthen its high-energy NFT ecosystem, where hyper-evolved apes, digital creativity, and community-driven growth merge into a dynamic Web3 brand.",
+    link: "https://www.hyperapes.com",
+    linkText: "Visit www.hyperapes.com",
+  },
+  {
     id: 12,
     title: "Crypt Stones",
     description: "A digital collectible venture centered on premium gemstone-inspired NFTs. Crypt Stones creates rare, high-value digital assets and immersive collectibles powered by blockchain, offering collectors a unique fusion of art, rarity, and Web3 innovation.",
     link: "https://www.cryptstones.com",
     linkText: "Visit www.cryptstones.com",
+  },
+  {
+    id: 17,
+    title: "Artist Gather",
+    description: "INGAGIN provides business development support to Artist Gather, a community platform connecting visual, performing, literary, and digital artists through curated events and social engagement tools. Together, we strengthen community growth, streamline event hosting, and expand partnership opportunities that empower creators to showcase their work and build meaningful connections.",
+    link: "https://www.artistgather.com",
+    linkText: "Visit www.artistgather.com",
   },
 ];
 

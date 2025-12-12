@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Script from "next/script";
+import { Suspense } from "react";
 
 import { Analytics } from "@/components/analytics";
 import { SiteFooter } from "@/components/site-footer";
@@ -65,7 +66,9 @@ export default function RootLayout({
             gtag('config', 'G-T8C57FN0BB');
           `}
         </Script>
-        <Analytics />
+        <Suspense fallback={null}>
+          <Analytics />
+        </Suspense>
         <div className="flex min-h-screen flex-col bg-[radial-gradient(circle_at_top,#11bfa610,transparent_55%),url('/images/blockchain-grid.svg')] bg-cover bg-fixed bg-center">
           <SiteHeader />
           <main className="flex-1 flex flex-col justify-center items-center">
