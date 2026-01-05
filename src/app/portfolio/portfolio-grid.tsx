@@ -95,6 +95,20 @@ const portfolioItems = [
     linkText: "Visit www.virtualworldcoins.com",
   },
   {
+    id: 19,
+    title: "Apes of Influence",
+    description: "INGAGIN is a strategic advisory partner to Apes of Influence, supporting the development of its creator-driven membership ecosystem through market positioning, collaboration strategy, and digital growth advisory. By aligning AOI's influencer community with emerging opportunities in Web3. INGAGIN expands member deal flow, strengthens brand partnerships, and accelerates the launch of new ventures across digital culture and blockchain.",
+    link: "https://www.apesofinfluence.com",
+    linkText: "Visit www.apesofinfluence.com",
+  },
+  {
+    id: 20,
+    title: "SOL TRD",
+    description: "INGAGIN is a strategic partner of SOL TRD, supporting the platform's growth as a curated hub for Solana traders throuhg ecosystem development and digital community architecture. By aligning SOL TRD with high-signal traders, bot builders, and NFT participants, INGAGIN strengthens market positioning, expands member connectivity, and accelerates collaborative opportunities across the Solana ecosystem.",
+    link: "https://www.soltrd.com",
+    linkText: "Visit www.soltrd.com",
+  },
+  {
     id: 11,
     title: "Trade Arts",
     description: "A strategic venture specializing in digital collectibles, NFT assets, and Web3 marketplace development. Trade Arts empowers creators, collectors, and brands by building scalable digital art ecosystems supported by blockchain innovation and strategic advisory.",
@@ -121,6 +135,13 @@ const portfolioItems = [
     description: "INGAGIN provides business development support to Artist Gather, a community platform connecting visual, performing, literary, and digital artists through curated events and social engagement tools. Together, we strengthen community growth, streamline event hosting, and expand partnership opportunities that empower creators to showcase their work and build meaningful connections.",
     link: "https://www.artistgather.com",
     linkText: "Visit www.artistgather.com",
+  },
+  {
+    id: 18,
+    title: "MicroLendr",
+    description: "INGAGIN provides strategic introductions to lenders for MicroLendr, supporting its mission to connect small businesses with accessible, flexible financing solutions. Through our network-driven approach, we help expand lending relationships, improve capital access, and accelerate growth for businesses seeking efficient funding options.",
+    link: "https://www.MicroLendr.com",
+    linkText: "Visit www.MicroLendr.com",
   },
 ];
 
