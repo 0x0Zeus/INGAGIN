@@ -116,11 +116,25 @@ const portfolioItems = [
     linkText: "Visit www.trdarts.com",
   },
   {
+    id: 21,
+    title: "NFT ART MARKET",
+    description: "INGAGIN is a joint venture partner and  provides market analysis, strategic positioning, and growth advisory, supporting NFT ART MKT in scaling its marketplace, optimizing artist representation, and expanding collector access across the art economy.",
+    link: "https://www.nftartmkt.com",
+    linkText: "Visit www.nftartmkt.com",
+  },
+  {
     id: 16,
     title: "Hyper Apes",
     description: "INGAGIN supports Hyper Apes by networking talent and providing strategic services to strengthen its high-energy NFT ecosystem, where hyper-evolved apes, digital creativity, and community-driven growth merge into a dynamic Web3 brand.",
     link: "https://www.hyperapes.com",
     linkText: "Visit www.hyperapes.com",
+  },
+  {
+    id: 22,
+    title: "GIRL CLOUD",
+    description: "INGAGIN provides strategic advisory and business development support to GIRL CLOUD, a women-led community focused on Web3, NFTs, crypto, and digital creation. Through this partnership, INGAGIN advises on platform growth, community structuring, visibility strategy, and long-term ecosystem development—helping GIRL CLOUD scale responsibly while maintaining a creator-first, community-driven mission.",
+    link: "https://www.girlcloud.com",
+    linkText: "Visit www.girlcloud.com",
   },
   {
     id: 12,
