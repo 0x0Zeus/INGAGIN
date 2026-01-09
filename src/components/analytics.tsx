@@ -10,7 +10,7 @@ export function Analytics() {
   useEffect(() => {
     if (typeof window !== "undefined" && window.gtag) {
       const url = pathname + (searchParams?.toString() ? `?${searchParams.toString()}` : "");
-      window.gtag("config", "G-T8C57FN0BB", {
+      window.gtag("config", "G-G0LJ1KGSF2", {
         page_path: url,
       });
     }
