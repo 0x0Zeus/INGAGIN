@@ -151,6 +151,13 @@ const portfolioItems = [
     linkText: "Visit www.cryptstones.com",
   },
   {
+    id: 28,
+    title: "Boogeeman",
+    description: "INGAGIN partners with Boogeeman as a strategic advisor, guiding GameFi architecture, NFT asset design, and blockchain infrastructure to build an immersive horror-themed Web3 universe. Through advisory on collectible NFT characters, and digital lore development, INGAGIN helps transform Boogeeman into a decentralized entertainment platform where community ownership, dark storytelling, and blockchain technology converge to create a unique GameFi experience.",
+    link: "https://www.Boogeeman.com",
+    linkText: "Visit www.Boogeeman.com",
+  },
+  {
     id: 26,
     title: "Survivalful",
     description: "INGAGIN advises Survivalful, providing strategic guidance and B2B introductions to accelerate the growth of its preparedness platform and NFT ecosystem, where survival intelligence, resilience training, and community-driven readiness converge to empower proactive individuals worldwide.",
